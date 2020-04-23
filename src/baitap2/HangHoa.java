@@ -10,9 +10,9 @@ package baitap2;
  * @author ASUS
  */
 public class HangHoa {
-    String tenHH;
-    int gia;
-    String moTa;
+    protected String tenHH;
+    protected int gia;
+    protected String moTa;
 
     public HangHoa(String tenHH, int gia, String moTa) {
         this.tenHH = tenHH;
@@ -42,6 +42,11 @@ public class HangHoa {
 
     public void setMoTa(String moTa) {
         this.moTa = moTa;
+    }
+
+    @Override
+    public String toString() {
+        return "Hàng hóa: " + "Tên hàng: " + tenHH + ", giá: " + gia + "NVĐ, mô tả: " + moTa + '}';
     }
     
     

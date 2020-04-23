@@ -56,7 +56,7 @@ public class BaiTap2Main {
         
         System.out.println("Danh sach hang hoa: ");
         for(int i = 0; i<gh2.dSachHH.size(); i++){
-            System.out.println(gh2.dSachHH.get(i));
+            System.out.println(gh2.dSachHH.get(i).toString());
         }
         
         int tongTienHang2 = 0;
